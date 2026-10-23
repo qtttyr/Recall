@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+build/
+.build/
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcresult
+*.dSYM
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.log
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+
+# App artifacts
+*.app
+*.dmg
+*.zip
+*.pkg
+*.ipa
+
+# Local configuration
+.env
+.env.*
+!.env.example
+*.local
